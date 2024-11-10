@@ -631,6 +631,353 @@ display: none !important;
     color: #fff;
 }
 
+<<<<<<< HEAD
+=======
+/* ---------------sign up---------------- */
+.form_login .button_signup{
+    max-width: 220px;
+}
+/* ---------------category---------------- */
+.cate_banner{
+    padding-top: 25px;
+    background-color: #57cc02;
+    margin: 0 auto;
+    text-align: center;
+}
+.mw_1200{
+    max-width: 1230px;
+    margin: 0 auto;
+    width: 100%;
+    padding: 0 15px;
+}
+.cate_left{
+    width: 385px;
+    height: 60px;
+    background-color: #ebcaff;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cate_left .text{
+    font-size: 40px;
+    font-weight: bold;
+}
+.cate_content_one .dflex{
+    gap: 20px;
+}
+.cate_right{
+    background-image: url(../img/category-line.png);
+    height: 35px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: calc(100% - 385px - 20px);
+}
+.cate_box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e1f5d2;
+    width: calc((100% - 25px * 3) / 4);
+    border: 1px solid #57cc02;
+    border-radius: 10px;
+    box-shadow: #57cc02a3 6px 2px 16px 0px, rgb(129 173 96) -6px -2px 16px 0px;
+    padding: 35px 35px 20px;
+}
+.cate_box_btn{
+    cursor: pointer;
+}
+.cate_box_ct{
+    text-align: center;
+}
+.cate_box_ct .text{
+    margin-top: 10px;
+    font-size: 22px;
+    font-weight: 500;
+}
+.cate_content .dflex1{
+    gap: 90px 25px;
+}
+.cate_content{
+    margin-top: 50px;
+}
+.cate_content1{
+    margin-top: 155px;
+}
+.cate_box_ct_text{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 30px;
+    line-height: 1.2;
+}
+.plus_box{
+    margin:  0 auto;
+    width: 120px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ebcaff;
+    border-radius: 15px;
+    rotate: 45deg;
+}
+.plus_box img{
+    width: 60px;
+    height: 60px;
+}
+
+
+/* ------------dashboard----------------- */
+
+.dashboard_banner{
+    height: 358px;
+    background-image: url(../img/beach_banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.dashboard_banner::after{
+    content: "";
+    position: absolute;
+    background-color: #0000007d;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.bnt_dashboard_return{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    background-color: #b1b1b185;
+    position: relative;
+    z-index: 1;
+}
+.bnt_dashboard_return img{
+    width: 80%;
+}
+.dashboard_title{
+    position: absolute;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+.dashboard_banner{
+    position: relative;
+}
+.dashboard_banner_content{
+    padding-top: 55px;
+}
+
+
+.search-input {
+    border: none;
+    outline: none;
+    flex-grow: 1;
+    font-size: 16px;
+    background-color: transparent;
+    padding: 5px;
+}
+
+.search-input::placeholder {
+    color: #bbb;
+}
+.search-button {
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    color: #999;
+    background-image: url(../img/search.png);
+    width: 16px;
+    height: 16px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.fct_textbox{
+    width: 460px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 10px 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #b1b1b185;
+}
+.search-button:hover {
+    color: #333;
+}
+.fct_btnadd{
+
+}
+.btn_addNW{
+    font-size: 18px;
+    color: #57cc02;
+    font-weight: 500;
+    cursor: pointer;
+    height: 70px;
+    width: 190px;
+    border: none;
+    border-radius: 10px;
+    border:  1px solid #57cc02;
+}
+.dashboard_find_ct .dflex{
+    align-items: center;
+    justify-content: space-between;
+}
+.dashboard_find_ct{
+    margin-bottom: 70px;
+}
+.dashboard_find{
+    margin-top: 55px;
+}
+.dashboard_content_fl{
+    gap: 45px;
+}
+.dashboard_content_box{
+    position: relative;
+    width: calc((100% - 45px * 3) / 4);
+    padding: 20px;
+    border: 1px solid #dcdcdc94;
+    border-radius: 10px;
+    height: 280px;
+}
+.fct_text{
+    width: calc(100% - 190px - 30px - 460px);
+}
+.dashboard_content_box_ct{
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../img/island-beach-wallpaper-preview.jpg);
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+.dashboard_content_box_ct::before{
+    content: "";
+    position: absolute;
+    background-color: #57cc0299;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+.dashboard_content_box_text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+    color: white;
+    font-weight: 700;
+}
+.dashboard_content_box_ct .wct_edit{
+    top: 20px;
+    right: 20px;
+}
+.dashboard_end{
+    margin-top: 150px;
+}
+/* -------------------edit_password-------------- */
+.editpass_input .edit_i{
+    width: 100%;
+    max-width: 610px;
+    height: 60px;
+    padding: 20px;
+    border: 1px solid #dcdcdc;
+    border-radius: 10px;
+    font-size: 16px;
+    color: #000;
+}
+.editpass_box{
+    text-align: center;
+    background-color: #fff;
+    padding-top: 55px;
+    border-radius: 15px;
+    padding-bottom: 65px;
+    position: relative;
+    z-index: 1;
+    border: 1px solid #b1b1b159;
+}
+.edit_i_f{
+    margin-bottom: 25px;
+}
+.mw_935{
+    max-width: 965px;
+    padding: 0 15px;
+    width: 100%;
+    margin: 0 auto;
+}
+.editpass_title{
+    color: #57cc02;
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+}
+.editpass_btn .e_btn_update{
+    width: 135px;
+    height: 55px;
+    border: 1px solid #57cc02;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #57cc02;
+}
+.editpass_btn .e_btn_update_pass{
+    width: 175px;
+    height: 55px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #57cc02;;
+    border-radius: 10px;
+    border: none;
+}
+.editpass_btn{
+    margin-top: 40px;
+}
+.editpass_btn .dflex{
+    gap: 20px;
+    justify-content: center;
+}
+.editpass_title{
+    margin-bottom: 15px;
+    margin-top: 40px;
+}
+.editpass_content{
+    padding-top: 220px;
+    background-color: #57cc02;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 90px;
+}
+.editpass_content::before{
+    content: "";
+    position: absolute;
+    background-color: #fff;
+    border-left: 52vw solid transparent;
+    border-right:  52vw solid transparent;
+    border-top: 32.031vw solid #57cc02;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 0;
+}
+
+
+
+
+>>>>>>> 144ff91 (update code 11/11)
 @media screen and (max-width:1600px){
     .login_left_text {
         padding-left: 5vw;
@@ -704,6 +1051,61 @@ display: none !important;
     .words_cate {
         padding-bottom: 4.688vw;
     }
+<<<<<<< HEAD
+=======
+
+    .plus_box {
+        width: 7.5vw;
+        height: 7.5vw  ;
+    }
+    .plus_box img {
+        width: 3.75vw;
+        height: 3.75vw;
+    }
+    .dashboard_content_fl {
+        gap: 2.813vw;
+    }
+    .dashboard_content_box {
+        width: calc((100% - 2.813vw * 3) / 4);
+        padding: 1.25vw;
+        height: 17.5vw;
+        min-height: 180px;
+    }
+    .dashboard_content_box_text{
+        font-size: 18px;
+    }
+    .dashboard_content_box_ct .wct_edit {
+        top: 1.25vw;
+        right: 1.25vw;
+    }
+    .dashboard_end {
+        margin-top: 9.375vw;
+    }
+    .btn_addNW {
+        font-size: 16px;
+        height: 50px;
+        width: 150px;
+    }
+    .fct_textbox {
+        width: 28.75vw;
+        min-width: 200px;
+        padding: 10px 20px;
+    }
+    .fct_text {
+        width: calc(100% - 150px - 20px - 28.75vw);
+    }
+    .dashboard_title {
+        font-size: 35px;
+    }
+    .btn_wedit, .btn_wdelete {
+        width: 25px;
+        height: 25px;
+    }
+    .editpass_content {
+        padding-top: 13.75vw;
+        margin-bottom: 5.625vw;
+    }
+>>>>>>> 144ff91 (update code 11/11)
 }
 @media screen and (max-width:1000px){
     .form_login .button_login{
@@ -714,7 +1116,31 @@ display: none !important;
     }
 }
 @media screen and (max-width:768px){
+<<<<<<< HEAD
 
+=======
+    .dashboard_content_box_ct .wct_edit{
+        top: 20px;
+        right: 20px;
+    }
+    .dashboard_banner {
+        height: 280px;
+    }
+    .cate_content_one .wco_right_fix{
+        width: calc((100% - 385px - 20px) / 2);
+        height: 40px;
+    }
+    .cate_content_one .dflex{
+        gap: 10px;
+        align-items: center;
+    }
+    .login_right_box .title .dess{
+        font-size: 13px;
+    }
+    .form_login .login_in, .button_login{
+        font-size: 14px;
+    }
+>>>>>>> 144ff91 (update code 11/11)
     .show_sp{
         display: block !important;
     }
@@ -877,9 +1303,16 @@ display: none !important;
         padding-bottom: 30px;
     }
     .btn_wedit, .btn_wdelete {
+<<<<<<< HEAD
         width: 17px;
         height: 17px;
         border: 1px solid #fff;
+=======
+        width: 20px;
+        height: 20px;
+        border: 1px solid #fff;
+        cursor: pointer;
+>>>>>>> 144ff91 (update code 11/11)
     }
     .btn_wedit img, .btn_wdelete img {
         width: 8px;
@@ -899,8 +1332,96 @@ display: none !important;
         width: calc((100% - 165px - 20px) / 2);
         height: 35px;
     }
+<<<<<<< HEAD
 }
 @media screen and (max-width:580px){
+=======
+    .cate_box {
+        width: calc((100% - 5.859vw * 2) / 3);
+        padding: 15px 15px 10px;
+    }
+    .cate_content .dflex1 {
+        gap: 5.859vw 5.859vw;
+    }
+    .cate_content1 {
+        margin-top: 8.464vw;
+    }
+    .cate_box_ct_text {
+        font-size: 20px;
+    }
+    .cate_left {
+        width: 50.13vw;
+    }
+    .cate_left .text {
+        font-size: 20px;
+    }
+    .cate_content_one .wco_right_fix {
+        width: calc((100% - 50.13vw - 20px) / 2);
+        height: 40px;
+    }
+    .dashboard_content_box {
+        width: calc((100% - 2.813vw * 1) / 2);
+        padding: 20px;
+        height: 17.5vw;
+        min-height: 230px;
+    }
+    .dashboard_find_ct .dflex{
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .fct_textbox{
+        order: 2;
+        width: 100%;
+    }
+    .fct_text{
+        width: calc(100% - 150px - 20px);
+    }
+    .editpass_lock img{
+        width: 40px;
+        height: 60px;
+    }
+    .editpass_title {
+        margin-bottom: 15px;
+        margin-top: 25px;
+        font-size: 25px;
+    }
+    .editpass_input .edit_i {
+        width: 100%;
+        max-width: 610px;
+        height: 50px;
+        padding: 15px;
+    }
+    .editpass_btn .e_btn_update {
+        width: 135px;
+        height: 50px;
+    }
+    .editpass_btn .e_btn_update_pass {
+        width: 175px;
+        height: 50px;
+    }
+    .editpass_box{
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 50px;
+    }
+    .editpass_content {
+        padding-top: 85px;
+        margin-bottom: 40px;
+    }
+    .editpass_content::before{
+        border-left: 58vw solid transparent;
+        border-right: 58vw solid transparent;
+        border-top: 748px solid #57cc02;
+    }
+
+}
+@media screen and (max-width:580px){
+    .cate_box_ct .text {
+        margin-top: 10px;
+        font-size: 15px;
+        font-weight: 500;
+    }
+>>>>>>> 144ff91 (update code 11/11)
     .wct_edit {
         right: 10px;
         top: 10px;
@@ -918,8 +1439,35 @@ display: none !important;
         height: 29.375vw;
         min-height: 120px;
     }
+<<<<<<< HEAD
 }
 @media screen and (max-width:429px){
+=======
+    .wct_content {
+        padding: 0 5.172vw;
+    }
+    .editpass_btn .e_btn_update{
+        width: 90px;
+        font-size: 13px;
+    }
+    .editpass_btn .e_btn_update_pass {
+        font-size: 13px;
+        width: calc(100% - 90px - 10px);
+    }
+    .editpass_btn .dflex {
+        gap: 10px;
+
+    }
+}
+@media screen and (max-width:429px){
+    .fct_text {
+        width: calc(100% - 100px - 20px);
+    }
+    .btn_addNW {
+        font-size: 14px;
+        width: 100px;
+    }
+>>>>>>> 144ff91 (update code 11/11)
     .login_right {
         margin-bottom: 50px;
         padding-top: 100px;
@@ -937,6 +1485,17 @@ display: none !important;
         width: 100%;
     }
     .wct_box {
+<<<<<<< HEAD
         min-height: 178px;
+=======
+        min-height: 200px;
+    }
+    .cate_box {
+        width: calc((100% - 5.859vw * 1) / 2);
+        padding: 15px 15px 10px;
+    }
+    .dashboard_content_box {
+        width: 100%;
+>>>>>>> 144ff91 (update code 11/11)
     }
 }
