@@ -1,7 +1,11 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;600;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Noto+Serif+JP:wght@200;400;500;700&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+=======
+
+>>>>>>> 144ff912a6e8035add945c507fa98ade7de91b6f
 
 .serif {
     font-family: "Noto Serif JP", sans-serif;
@@ -11,11 +15,15 @@
     font-family: "Montserrat", sans-serif;
 }
 
+<<<<<<< HEAD
 .pacifico {
     font-family: "Pacifico", cursive;
     font-weight: 400;
     font-style: normal;
   }
+=======
+
+>>>>>>> 144ff912a6e8035add945c507fa98ade7de91b6f
 
 .Cormorant {
     font-family: "Cormorant Garamond", serif;
@@ -512,6 +520,7 @@ display: none !important;
     background-repeat: repeat;
     background-size: cover;
 }
+<<<<<<< HEAD
 
 .editP_right_center{
     width: 110px;
@@ -519,6 +528,8 @@ display: none !important;
 .editP_right_center_1{
     width: 175px;
 }
+=======
+>>>>>>> 144ff912a6e8035add945c507fa98ade7de91b6f
 .words_content_one .dflex{
     align-items: center;
     justify-content: center;
@@ -642,12 +653,18 @@ display: none !important;
     color: #fff;
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 144ff912a6e8035add945c507fa98ade7de91b6f
 /* ---------------sign up---------------- */
 .form_login .button_signup{
     max-width: 220px;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 144ff912a6e8035add945c507fa98ade7de91b6f
 /* ---------------category---------------- */
 .cate_banner{
     padding-top: 25px;
@@ -984,6 +1001,7 @@ display: none !important;
     transform: translateX(-50%);
     z-index: 0;
 }
+<<<<<<< HEAD
 /* ----------------edit-profile-------------- */
 
 
@@ -1372,6 +1390,10 @@ display: none !important;
     padding: 0 15px;
 }
 
+=======
+
+
+>>>>>>> 144ff912a6e8035add945c507fa98ade7de91b6f
 
 
 @media screen and (max-width:1600px){
@@ -1499,6 +1521,7 @@ display: none !important;
         padding-top: 13.75vw;
         margin-bottom: 5.625vw;
     }
+<<<<<<< HEAD
     .edit_profile {
         padding-top: 12.812vw;
     }
@@ -1617,12 +1640,17 @@ display: none !important;
         width: 100%;
         order: 1;
     }
+=======
+}
+@media screen and (max-width:1000px){
+>>>>>>> 144ff912a6e8035add945c507fa98ade7de91b6f
     .form_login .button_login{
         height: 45px;
     }
     .words_cate_header {
         height: 90px;
     }
+<<<<<<< HEAD
     .edit_profile {
         padding-top: 60px;
     }
@@ -1692,6 +1720,10 @@ display: none !important;
     .home_content2, .home_content1{
         display: none;
     }
+=======
+}
+@media screen and (max-width:768px){
+>>>>>>> 144ff912a6e8035add945c507fa98ade7de91b6f
     .dashboard_content_box_ct .wct_edit{
         top: 20px;
         right: 20px;
@@ -1875,9 +1907,12 @@ display: none !important;
         padding-bottom: 30px;
     }
     .btn_wedit, .btn_wdelete {
+<<<<<<< HEAD
         width: 17px;
         height: 17px;
         border: 1px solid #fff;
+=======
+>>>>>>> 144ff912a6e8035add945c507fa98ade7de91b6f
         width: 20px;
         height: 20px;
         border: 1px solid #fff;
@@ -1901,6 +1936,7 @@ display: none !important;
         width: calc((100% - 165px - 20px) / 2);
         height: 35px;
     }
+<<<<<<< HEAD
 
     .editP_right_r {
         width: calc((100% - 110px - 20px) / 2);
@@ -1939,6 +1975,8 @@ display: none !important;
 }
 
 @media screen and (max-width:580px){
+=======
+>>>>>>> 144ff912a6e8035add945c507fa98ade7de91b6f
     .cate_box {
         width: calc((100% - 5.859vw * 2) / 3);
         padding: 15px 15px 10px;
@@ -2016,6 +2054,7 @@ display: none !important;
         border-right: 58vw solid transparent;
         border-top: 748px solid #57cc02;
     }
+<<<<<<< HEAD
     .editP_input2{
         width: 175px;
     }
@@ -2031,6 +2070,9 @@ display: none !important;
     .editP_right {
         padding: 30px 15px
     }
+=======
+
+>>>>>>> 144ff912a6e8035add945c507fa98ade7de91b6f
 }
 @media screen and (max-width:580px){
     .cate_box_ct .text {
@@ -2055,6 +2097,7 @@ display: none !important;
         height: 29.375vw;
         min-height: 120px;
     }
+<<<<<<< HEAD
 
     .editP_left{
         padding: 0;
@@ -2096,6 +2139,8 @@ display: none !important;
 }
 @media screen and (max-width:429px){
 
+=======
+>>>>>>> 144ff912a6e8035add945c507fa98ade7de91b6f
     .wct_content {
         padding: 0 5.172vw;
     }
@@ -2111,6 +2156,7 @@ display: none !important;
         gap: 10px;
 
     }
+<<<<<<< HEAD
 
 }
 @media screen and (max-width:429px){
@@ -2127,6 +2173,10 @@ display: none !important;
         width: 100%;    }
     .editP_select {
         width: 100%;    }
+=======
+}
+@media screen and (max-width:429px){
+>>>>>>> 144ff912a6e8035add945c507fa98ade7de91b6f
     .fct_text {
         width: calc(100% - 100px - 20px);
     }
@@ -2151,7 +2201,10 @@ display: none !important;
         width: 100%;
     }
     .wct_box {
+<<<<<<< HEAD
         min-height: 178px;
+=======
+>>>>>>> 144ff912a6e8035add945c507fa98ade7de91b6f
         min-height: 200px;
     }
     .cate_box {
@@ -2160,9 +2213,12 @@ display: none !important;
     }
     .dashboard_content_box {
         width: 100%;
+<<<<<<< HEAD
 
     }
     .editP_in1 {
         width: 100%;
+=======
+>>>>>>> 144ff912a6e8035add945c507fa98ade7de91b6f
     }
 }
